@@ -22,3 +22,7 @@ Notes:
 - Works for empty strings, single character strings, and strings with spaces.
 - Comparison is case sensitive (a and A are treated differently).
 - Time complexity: O(n)
+
+Second project
+
+The idea is to first calculate the expected sum of all numbers from 1 to N+1 using the formula (N+1)*(N+2)/2. Then, subtract each number in the given array from this sum. The number left after all the subtractions is the missing number. This method takes O(n) time because we go through the array once and uses O(1) extra space because no additional array or data structure is needed
